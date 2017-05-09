@@ -2,9 +2,13 @@
   "name": "react-workshop-virutal-dom",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack"
+    "build:react:cycle": "webpack --config webpack.react.config.js",
+    "build:virtual:dom": "webpack --config webpack.vm.config.js"
   },
   "dependencies": {
+    "minimist": "^1.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "virtual-dom": "2.1.1"
   }
 }
