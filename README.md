@@ -8,7 +8,7 @@ Es werden unter anderem folgende Themen behandelt:
 - VirtualDOM
 - React, ReactDOM
 - React component lifecycle
-- DIffs, patches, refs, findeDOMnode
+- DIffs, patches, refs, findDOMnode
 
 <hr>
 
