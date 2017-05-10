@@ -24,7 +24,6 @@ var rootNode = createElement(tree);     // Create an initial root DOM node ...
 document.body.appendChild(rootNode);    // ... and it should be in the document
 
 
-
 setInterval(function () {
       
       // CHANGE DATA
@@ -35,7 +34,7 @@ setInterval(function () {
       // find changes and only update the virtual nodes which changed
       const patches = diff(tree, newTree);
       
-      // update/patch dom
+      // updates the dom and returns back the reference
       rootNode = patch(rootNode, patches);
 
       // set new tree
